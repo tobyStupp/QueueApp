@@ -211,12 +211,7 @@ namespace QueueApp
             //p = new Node<int>(5, p);
             //p = new Node<int>(3, p);
             //Console.WriteLine(UpDownSeries(p));
-            BinNode<int> t = new BinNode<int>(new BinNode<int>(3), 1, new BinNode<int>(new BinNode<int>(6), 3, new BinNode<int>(2)));
-            BinNode<int> t1 = new BinNode<int>(new BinNode<int>(3), 1, new BinNode<int>(null, 3, new BinNode<int>(5)));
-            if (Contains(t, t1))
-                Console.WriteLine("Works");
-            else
-                Console.WriteLine("Shit");
+          
 
             Console.ReadKey();
 
